@@ -136,7 +136,7 @@ Endpoint: https://coding-intl.dashscope.aliyuncs.com/v1
 custom_providers:
   - name: bailian-coding-plan
     base_url: https://coding.dashscope.aliyuncs.com/apps/anthropic
-    api_key: sk-sp-xxx
+    api_key: API-KEY
     key_env: BAILIAN_CODING_PLAN_API_KEY    # 关键字段
     api_mode: anthropic_messages
     models:
@@ -216,7 +216,7 @@ model:
 custom_providers:
   - name: bailian-coding-plan
     base_url: https://coding.dashscope.aliyuncs.com/apps/anthropic
-    api_key: sk-sp-29d656c5e4174699a07b4d9df73e96ca
+    api_key: API-KEY
     key_env: BAILIAN_CODING_PLAN_API_KEY
     api_mode: anthropic_messages
     default_model: qwen3.6-plus
@@ -246,7 +246,7 @@ custom_providers:
 对应的 `.env`：
 
 ```env
-BAILIAN_CODING_PLAN_API_KEY=sk-sp-29d656c5e4174699a07b4d9df73e96ca
+BAILIAN_CODING_PLAN_API_KEY=API-KEY
 ```
 
 ---
